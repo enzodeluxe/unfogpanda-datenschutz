@@ -1,6 +1,6 @@
-# Unfog Panda – Datenschutzerklärung
+# UnFog Panda – Datenschutzerklärung
 
-Nur die beiden Rechtstexte der Android-App **Unfog Panda**, damit der Play
+Nur die beiden Rechtstexte der Android-App **UnFog Panda**, damit der Play
 Store eine öffentlich erreichbare URL hat. Der Quellcode der App liegt in
 einem eigenen, privaten Repository.
 
