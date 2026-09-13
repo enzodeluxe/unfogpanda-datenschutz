@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Unfog Panda</title>
+<style>
+  :root{ color-scheme: light dark; }
+  body{max-width:46rem;margin:0 auto;padding:2rem 1.25rem 4rem;
+       font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+       line-height:1.65;color:#1c1e26;background:#fff}
+  @media (prefers-color-scheme: dark){ body{color:#e8eaf2;background:#12141c} a{color:#7fb0ff} }
+  h1{font-size:1.75rem;margin-bottom:.25rem}
+  h2{font-size:1.15rem;margin-top:2.25rem}
+  .stand{color:#6b7280;font-size:.9rem;margin-top:0}
+  table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.95rem}
+  th,td{border:1px solid #d3d7e0;padding:.5rem .6rem;text-align:left;vertical-align:top}
+  @media (prefers-color-scheme: dark){ th,td{border-color:#2f3545} }
+  th{background:rgba(127,127,127,.12)}
+  .platzhalter{background:#fff3cd;color:#664d03;padding:.15rem .35rem;border-radius:.2rem;font-weight:600}
+  @media (prefers-color-scheme: dark){ .platzhalter{background:#4a3f10;color:#ffe08a} }
+  code{font-size:.9em}
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="stand">Unfog Panda for Android · Last updated: 5 September 2026</p>
+
+<h2>1. Controller</h2>
+<p>
+  Jens Mimberg<br>
+  Weststraße 30a<br>
+  46535 Dinslaken, Germany<br>
+  E-mail: enzodeluxe@loveyouforever.de
+</p>
+<p style="font-size:.92rem;color:#6b7280">
+  The app is published privately, not as part of a commercial activity, so no data
+  protection officer has been appointed.
+</p>
+
+<h2>2. In short</h2>
+<p>
+  Unfog Panda records where you have travelled and clears a map at those places.
+  <strong>All of your location data stays on your device.</strong> There is no user
+  account, no server run by the provider, no advertising and no analytics or tracking.
+  Map imagery, address search, routing and city boundaries are fetched from third-party
+  services; doing so transmits the necessary coordinates and your IP address to them
+  (see section 5).
+</p>
+
+<h2>3. What the app processes</h2>
+<table>
+  <tr><th>Data</th><th>Purpose</th><th>Stored where</th></tr>
+  <tr><td>Location (precise and approximate)</td>
+      <td>Clearing explored area, showing your position, navigation</td>
+      <td>On your device only (the app's local storage)</td></tr>
+  <tr><td>Visit history: coordinates, timestamp, place and city name, country code</td>
+      <td>Showing visited places and progress per city</td>
+      <td>On your device only, at most 500 entries</td></tr>
+  <tr><td>Settings (radius, fog opacity, design, language)</td>
+      <td>Running the app</td><td>On your device only</td></tr>
+  <tr><td>Cached city boundaries</td>
+      <td>Calculating your progress per city without repeated requests</td>
+      <td>On your device only</td></tr>
+</table>
+<p>
+  The provider receives <strong>none</strong> of this data. No advertising identifiers are
+  collected, no usage statistics are produced and no crash reports are sent to the provider.
+</p>
+
+<h2>4. Permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr><td><code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code></td>
+      <td>Core function: determining your position to clear the map and to navigate</td></tr>
+  <tr><td><code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_LOCATION</code></td>
+      <td>Optional recording while the screen is off. It runs only while you have enabled
+          it in the settings and shows a persistent notification throughout.</td></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td><td>Showing that notification</td></tr>
+  <tr><td><code>INTERNET</code></td>
+      <td>Loading map imagery, address search, routing and city boundaries</td></tr>
+</table>
+<p>
+  The app does <strong>not</strong> request background location access
+  (<code>ACCESS_BACKGROUND_LOCATION</code>). Recording while the screen is off runs through
+  a visible foreground service with a notification.
+</p>
+
+<h2>5. Third-party services</h2>
+<p>
+  Calling these services necessarily transmits your IP address. The provider has no
+  influence over how they process it.
+</p>
+<table>
+  <tr><th>Service</th><th>Used for</th><th>Data transmitted</th></tr>
+  <tr><td>Esri ArcGIS World Imagery<br><small>Esri Inc., USA</small></td>
+      <td>Satellite map imagery</td><td>IP address, requested map area</td></tr>
+  <tr><td>Nominatim<br><small>OpenStreetMap Foundation, United Kingdom</small></td>
+      <td>Address search, place and city names, city boundaries</td>
+      <td>IP address, search term or coordinates</td></tr>
+  <tr><td>OSRM (routing.openstreetmap.de)<br><small>FOSSGIS e.V., Germany</small></td>
+      <td>Route calculation</td><td>IP address, start and destination coordinates</td></tr>
+</table>
+<p>
+  These requests happen only when you use the corresponding feature. The transmitted
+  coordinates are processed solely to answer the request and are not linked to your
+  identity by the app. Esri may process data in the United States. See
+  <a href="https://www.esri.com/en-us/privacy/overview">Esri</a>,
+  <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation</a> and
+  <a href="https://www.fossgis.de/datenschutz/">FOSSGIS e.V.</a> for their own policies.
+</p>
+
+<h2>6. Donations</h2>
+<p>
+  The “Donate with PayPal” button under “About this app” is an ordinary link. It opens
+  PayPal’s donation page in your device’s browser. No payment is processed inside the
+  app, no PayPal script is loaded, and no data reaches PayPal unless you tap the
+  button. From that point on, PayPal’s
+  <a href="https://www.paypal.com/us/webapps/mpp/ua/privacy-full">privacy statement</a>
+  applies. A donation is voluntary and unlocks nothing in the app.
+</p>
+<h2>7. Backups</h2>
+<p>
+  “Export backup” creates a file containing your cleared points and your visit history.
+  Where that file goes is entirely your choice through the Android share dialog. With daily
+  auto-backup enabled, the app writes the file to the “Documents/UnfogPanda” folder on your
+  device. The provider never receives a copy. Note that a device backup created by Android
+  or your cloud provider may include this file.
+</p>
+
+<h2>8. Legal basis</h2>
+<p>
+  Location processing is based on your consent (Art. 6(1)(a) GDPR), given when you grant
+  the location permission and revocable at any time in the Android settings. Fetching map
+  imagery and routes is necessary to provide the feature you requested (Art. 6(1)(b) GDPR).
+</p>
+
+<h2>9. Retention and deletion</h2>
+<p>Data stays on your device until you delete it. You can do so at any time:</p>
+<ul>
+  <li>Settings → “Reset fog” deletes all cleared points.</li>
+  <li>Visited places → “Delete entire history” deletes the visit history.</li>
+  <li>Uninstalling the app removes all stored data.</li>
+</ul>
+<p>The visit history is additionally capped at the 500 most recent entries.</p>
+
+<h2>10. Your rights</h2>
+<p>
+  Under the GDPR you have the right to access, rectification, erasure, restriction of
+  processing, data portability and objection, as well as the right to lodge a complaint
+  with a supervisory authority. As the provider neither receives nor stores any of your
+  data, access and erasure can in practice only concern your device, where the data remains
+  solely under your control.
+</p>
+
+<h2>11. Children</h2>
+<p>
+  The app is not directed at children under 13 and does not knowingly collect data from them.
+</p>
+
+<h2>12. Changes</h2>
+<p>
+  If this policy changes, the date above will be updated. The current version is always
+  available at the address listed on the Play Store.
+</p>
+
+</body>
+</html>

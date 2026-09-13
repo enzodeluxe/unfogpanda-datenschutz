@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – Unfog Panda</title>
+<style>
+  :root{ color-scheme: light dark; }
+  body{max-width:46rem;margin:0 auto;padding:2rem 1.25rem 4rem;
+       font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+       line-height:1.65;color:#1c1e26;background:#fff}
+  @media (prefers-color-scheme: dark){ body{color:#e8eaf2;background:#12141c} a{color:#7fb0ff} }
+  h1{font-size:1.75rem;margin-bottom:.25rem}
+  h2{font-size:1.15rem;margin-top:2.25rem}
+  .stand{color:#6b7280;font-size:.9rem;margin-top:0}
+  table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.95rem}
+  th,td{border:1px solid #d3d7e0;padding:.5rem .6rem;text-align:left;vertical-align:top}
+  @media (prefers-color-scheme: dark){ th,td{border-color:#2f3545} }
+  th{background:rgba(127,127,127,.12)}
+  .platzhalter{background:#fff3cd;color:#664d03;padding:.15rem .35rem;border-radius:.2rem;font-weight:600}
+  @media (prefers-color-scheme: dark){ .platzhalter{background:#4a3f10;color:#ffe08a} }
+  code{font-size:.9em}
+</style>
+</head>
+<body>
+
+<h1>Datenschutzerklärung</h1>
+<p class="stand">Unfog Panda für Android · Stand: 5. September 2026</p>
+
+<h2>1. Verantwortlicher</h2>
+<p>
+  Jens Mimberg<br>
+  Weststraße 30a<br>
+  46535 Dinslaken<br>
+  E-Mail: enzodeluxe@loveyouforever.de
+</p>
+<p style="font-size:.92rem;color:#6b7280">
+  Die App wird privat herausgegeben, nicht im Rahmen einer gewerblichen Tätigkeit.
+  Ein Datenschutzbeauftragter ist deshalb nicht bestellt.
+</p>
+
+<h2>2. Kurzfassung</h2>
+<p>
+  Unfog Panda zeichnet auf, wo Sie sich bewegt haben, und deckt an diesen Stellen eine
+  Karte auf. <strong>Alle Ihre Standortdaten bleiben auf Ihrem Gerät.</strong> Es gibt kein
+  Benutzerkonto, keinen Server des Anbieters, keine Werbung und keine Analyse- oder
+  Tracking-Dienste. Für Kartenbilder, Adresssuche, Routen und Stadtgrenzen fragt die App
+  jedoch fremde Dienste ab; dabei werden die dafür nötigen Koordinaten und Ihre
+  IP-Adresse an diese Dienste übertragen (siehe Abschnitt 5).
+</p>
+
+<h2>3. Welche Daten die App verarbeitet</h2>
+<table>
+  <tr><th>Daten</th><th>Zweck</th><th>Wo gespeichert</th></tr>
+  <tr>
+    <td>Standort (GPS, genau und ungefähr)</td>
+    <td>Freischalten der erkundeten Fläche, Positionsanzeige, Navigation</td>
+    <td>Nur auf dem Gerät (lokaler Speicher der App)</td>
+  </tr>
+  <tr>
+    <td>Besuchsverlauf: Koordinaten, Zeitpunkt, Orts- und Städtename, Ländercode</td>
+    <td>Anzeige der besuchten Orte und des Fortschritts je Stadt</td>
+    <td>Nur auf dem Gerät, höchstens 500 Einträge</td>
+  </tr>
+  <tr>
+    <td>Einstellungen (Radius, Nebeldeckkraft, Design, Sprache)</td>
+    <td>Betrieb der App</td>
+    <td>Nur auf dem Gerät</td>
+  </tr>
+  <tr>
+    <td>Zwischengespeicherte Stadtgrenzen</td>
+    <td>Damit der Fortschritt je Stadt ohne erneute Abfrage berechnet werden kann</td>
+    <td>Nur auf dem Gerät</td>
+  </tr>
+</table>
+<p>
+  Der Anbieter erhält <strong>keine</strong> dieser Daten. Es werden keine Kennungen zu
+  Werbezwecken erhoben, keine Nutzungsstatistiken erstellt und keine Absturzberichte
+  an den Anbieter gesendet.
+</p>
+
+<h2>4. Berechtigungen und warum sie nötig sind</h2>
+<table>
+  <tr><th>Berechtigung</th><th>Wofür</th></tr>
+  <tr><td><code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code></td>
+      <td>Kernfunktion: Ihre Position bestimmen, um die Karte aufzudecken und zu navigieren</td></tr>
+  <tr><td><code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_LOCATION</code></td>
+      <td>Optionale Aufzeichnung bei ausgeschaltetem Display. Läuft nur, solange Sie sie
+          in den Einstellungen aktiviert haben, und zeigt dabei dauerhaft eine
+          Benachrichtigung an.</td></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td>
+      <td>Anzeige eben dieser Benachrichtigung während der Aufzeichnung</td></tr>
+  <tr><td><code>INTERNET</code></td>
+      <td>Laden der Kartenbilder sowie Adresssuche, Routenberechnung und Stadtgrenzen</td></tr>
+</table>
+<p>
+  Die App fordert <strong>keine</strong> Berechtigung für Standortzugriff im Hintergrund
+  (<code>ACCESS_BACKGROUND_LOCATION</code>) an. Die Aufzeichnung bei ausgeschaltetem
+  Display läuft über einen sichtbaren Vordergrunddienst mit Benachrichtigung.
+</p>
+
+<h2>5. Fremde Dienste</h2>
+<p>
+  Beim Aufruf der folgenden Dienste wird technisch bedingt Ihre IP-Adresse übertragen.
+  Der Anbieter hat auf die dortige Verarbeitung keinen Einfluss.
+</p>
+<table>
+  <tr><th>Dienst</th><th>Wofür</th><th>Übertragene Daten</th></tr>
+  <tr>
+    <td>Esri ArcGIS World Imagery<br><small>Esri Inc., USA</small></td>
+    <td>Satellitenbilder der Karte</td>
+    <td>IP-Adresse, angefragter Kartenausschnitt</td>
+  </tr>
+  <tr>
+    <td>Nominatim<br><small>OpenStreetMap Foundation, Vereinigtes Königreich</small></td>
+    <td>Adresssuche, Ermittlung von Orts- und Städtenamen, Stadtgrenzen</td>
+    <td>IP-Adresse, gesuchter Begriff bzw. Koordinaten</td>
+  </tr>
+  <tr>
+    <td>OSRM (routing.openstreetmap.de)<br><small>FOSSGIS e.V., Deutschland</small></td>
+    <td>Routenberechnung</td>
+    <td>IP-Adresse, Start- und Zielkoordinaten</td>
+  </tr>
+</table>
+<p>
+  Diese Abfragen erfolgen nur, wenn Sie die jeweilige Funktion nutzen. Die übermittelten
+  Koordinaten werden ausschließlich zur Beantwortung der Anfrage verarbeitet und von der
+  App nicht mit Ihrer Person verknüpft. Bei Esri kann eine Übermittlung in die USA
+  stattfinden. Nutzungsbedingungen und Datenschutzhinweise der Anbieter:
+  <a href="https://www.esri.com/en-us/privacy/overview">Esri</a>,
+  <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation</a>,
+  <a href="https://www.fossgis.de/datenschutz/">FOSSGIS e.V.</a>
+</p>
+
+<h2>6. Spenden</h2>
+<p>
+  Der Knopf „Mit PayPal spenden“ unter „Über die App“ ist ein gewöhnlicher Link. Er
+  öffnet die Spendenseite von PayPal im Browser Ihres Geräts. Innerhalb der App
+  findet keine Zahlungsabwicklung statt, es wird kein Skript von PayPal geladen und
+  es werden keine Daten an PayPal übermittelt, solange Sie den Knopf nicht antippen.
+  Ab dem Wechsel zu PayPal gelten deren
+  <a href="https://www.paypal.com/de/webapps/mpp/ua/privacy-full">Datenschutzhinweise</a>.
+  Eine Spende ist freiwillig und schaltet in der App nichts frei.
+</p>
+<h2>7. Backups</h2>
+<p>
+  Über „Backup exportieren“ erzeugt die App eine Datei mit Ihren freigeschalteten Punkten
+  und Ihrem Besuchsverlauf. Wohin diese Datei geht, entscheiden allein Sie über den
+  Teilen-Dialog von Android. Ist das tägliche Auto-Backup aktiviert, legt die App die
+  Datei im Ordner „Dokumente/UnfogPanda“ auf Ihrem Gerät ab. Der Anbieter erhält keine
+  Kopie. Beachten Sie, dass ein von Android oder Ihrem Cloud-Anbieter angelegtes
+  Gerätebackup diese Datei mit sichern kann.
+</p>
+
+<h2>8. Rechtsgrundlagen</h2>
+<p>
+  Die Verarbeitung des Standorts erfolgt auf Grundlage Ihrer Einwilligung
+  (Art. 6 Abs. 1 lit. a DSGVO), die Sie mit der Erteilung der Standortberechtigung
+  abgeben und jederzeit über die Android-Einstellungen widerrufen können. Der Abruf der
+  Kartenbilder und der Routen ist zur Erbringung der von Ihnen angeforderten Funktion
+  erforderlich (Art. 6 Abs. 1 lit. b DSGVO).
+</p>
+
+<h2>9. Speicherdauer und Löschung</h2>
+<p>
+  Die Daten bleiben so lange auf Ihrem Gerät, bis Sie sie löschen. Sie können das
+  jederzeit selbst tun:
+</p>
+<ul>
+  <li>Einstellungen → „Nebel zurücksetzen“ löscht alle freigeschalteten Punkte.</li>
+  <li>Besuchte Orte → „Gesamten Verlauf löschen“ löscht den Besuchsverlauf.</li>
+  <li>Deinstallation der App entfernt sämtliche gespeicherten Daten.</li>
+</ul>
+<p>Der Besuchsverlauf ist zusätzlich auf die 500 jüngsten Einträge begrenzt.</p>
+
+<h2>10. Ihre Rechte</h2>
+<p>
+  Sie haben nach der DSGVO das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung
+  der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, sich bei einer
+  Aufsichtsbehörde zu beschweren. Da der Anbieter keine Ihrer Daten erhält oder speichert,
+  können sich Auskunft und Löschung praktisch nur auf Ihr Gerät beziehen; die Daten liegen
+  dort ausschließlich in Ihrer Hand.
+</p>
+
+<h2>11. Kinder</h2>
+<p>
+  Die App richtet sich nicht an Kinder unter 13 Jahren und erhebt wissentlich keine Daten
+  von ihnen.
+</p>
+
+<h2>12. Änderungen</h2>
+<p>
+  Bei Änderungen dieser Erklärung wird das Datum oben angepasst. Die jeweils aktuelle
+  Fassung ist unter der im Play Store hinterlegten Adresse abrufbar.
+</p>
+
+</body>
+</html>
