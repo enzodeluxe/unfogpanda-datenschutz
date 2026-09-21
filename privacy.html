@@ -100,7 +100,8 @@
       <td>Address search, place and city names, city boundaries</td>
       <td>IP address, search term or coordinates</td></tr>
   <tr><td>OSRM (routing.openstreetmap.de)<br><small>FOSSGIS e.V., Germany</small></td>
-      <td>Route calculation</td><td>IP address, start and destination coordinates</td></tr>
+      <td>Route calculation; optionally also redrawing gaps in the recording</td>
+      <td>IP address, start and destination coordinates</td></tr>
 </table>
 <p>
   These requests happen only when you use the corresponding feature. The transmitted
@@ -109,6 +110,20 @@
   <a href="https://www.esri.com/en-us/privacy/overview">Esri</a>,
   <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation</a> and
   <a href="https://www.fossgis.de/datenschutz/">FOSSGIS e.V.</a> for their own policies.
+</p>
+
+<h3>Redrawing a route</h3>
+<p>
+  If the device reports no position for several minutes during a journey, a gap
+  appears in the revealed track. The app fills it with a straight line. On request
+  it can instead ask the OSRM routing service how the road between the two ends
+  actually runs. Only the start and end point of that gap are transmitted, never
+  the recorded track.
+</p>
+<p>
+  This feature is <strong>off by default</strong>. You can switch it on under
+  “Settings → Redraw route”, where you can also run it once for gaps that already
+  exist. Nothing is transmitted for this purpose unless you ask for it.
 </p>
 
 <h2>6. Donations</h2>
